@@ -6,29 +6,51 @@
 
 .topnav a {
 	float: left;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 14px 16px;
+	text-align: center;
+	display: block;
+
 }
 
 .topnav {
-
-}
-
-.subnav a {
-
+	overflow: hidden;
+	background-color: #44bcd8;
 }
 
 .subnav {
-
+	overflow: hidden;
+	float: left;
 }
 
 .subnav .subnavbtn {
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: white;
+	padding: 14px 16px ;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
 
+
+.topnav a:hover, .subnav:hover, .subnavbtn {
+	background-color: #edb879;
 }
 
 .subnav-content a {
-
+	color: black;
+	float: none;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
 }
 
 .subnav-content {
-
+	display: none;
+	position: absolute;
 }
 
